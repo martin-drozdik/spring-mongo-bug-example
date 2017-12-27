@@ -9,7 +9,7 @@ data class Person (val id: String)
 @Component
 class PersonHandler(val template: ReactiveMongoTemplate)
 {
-    init
+    fun initialize()
     {
         println("Initializing")
 
